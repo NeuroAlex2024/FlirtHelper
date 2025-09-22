@@ -1,7 +1,7 @@
 const RESPONSE_TEXT = "Новый бот для переписок - @VibeDatingBot";
 
 export const config = {
-  runtime: "nodejs18.x"
+  runtime: "nodejs"
 };
 
 function parseUpdate(req) {

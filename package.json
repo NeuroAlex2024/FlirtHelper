@@ -5,6 +5,7 @@
   "main": "api/webhook.js",
   "type": "module",
   "scripts": {
-    "start": "vercel dev"
+    "start": "vercel dev",
+    "test": "node --test"
   }
 }

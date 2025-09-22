@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="utf-8" />
+    <title>FlirtHelper Bot</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <style>
+      body {
+        font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+        background: #0f172a;
+        color: #f8fafc;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        min-height: 100vh;
+        margin: 0;
+        padding: 2rem;
+        text-align: center;
+      }
+      main {
+        max-width: 32rem;
+      }
+      h1 {
+        font-size: 2.5rem;
+        margin-bottom: 1rem;
+      }
+      code {
+        background: rgba(15, 23, 42, 0.7);
+        padding: 0.5rem 0.75rem;
+        border-radius: 0.5rem;
+        display: inline-block;
+        margin-top: 0.75rem;
+        font-size: 1.1rem;
+      }
+      a {
+        color: #38bdf8;
+      }
+    </style>
+  </head>
+  <body>
+    <main>
+      <h1>FlirtHelper Telegram Bot</h1>
+      <p>
+        Этот проект развёрнут на Vercel и принимает вебхуки Telegram по адресу
+        <code>/api/webhook</code>.
+      </p>
+      <p>
+        Бот отвечает на любое сообщение текстом:<br />
+        <code>Новый бот для переписок - @VibeDatingBot</code>
+      </p>
+      <p>
+        Не забудьте настроить вебхук через
+        <a href="https://core.telegram.org/bots/api#setwebhook" target="_blank" rel="noreferrer">setWebhook</a>
+        и добавить токен бота в переменную окружения
+        <code>TELEGRAM_BOT_TOKEN</code>.
+      </p>
+    </main>
+  </body>
+</html>

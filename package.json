@@ -1,0 +1,10 @@
+{
+  "name": "flirthelper-bot",
+  "version": "1.0.0",
+  "description": "Simple Telegram bot replying with a fixed message",
+  "main": "api/webhook.js",
+  "type": "module",
+  "scripts": {
+    "start": "vercel dev"
+  }
+}
